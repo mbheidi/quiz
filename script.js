@@ -1,6 +1,11 @@
+
+  <script>
 $(document).ready(function(){
-   $("#flip").click(function(){
-    $("#panel").slideDown("fast");
+  $("#hide").click(function(){
+    $("p").hide();
   });
-
-
+  $("#show").click(function(){
+    $("p").show();
+  });
+});
+</script>
